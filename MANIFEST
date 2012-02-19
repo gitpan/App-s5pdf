@@ -1,0 +1,8 @@
+bin/s5pdf
+Changes
+Makefile.PL
+MANIFEST
+MANIFEST.SKIP
+README
+t/dummy.t
+META.yml                                 Module meta-data (added by MakeMaker)
