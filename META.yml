@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:               App-s5pdf
-version:            0.01
-abstract:           ~
+version:            0.02
+abstract:           Convert an S5 presentation to PDF
 author:
     - Emmanuel Rodriguez <potyl@cpan.org>
 license:            perl
@@ -20,6 +20,10 @@ requires:
     Gtk3::WebKit:    0
     Pod::Usage:      0
     URI:             0
+resources:
+    bugtracker:  https://github.com/potyl/perl-App-s5pdf/issues
+    homepage:    https://github.com/potyl/perl-App-s5pdf
+    repository:  https://github.com/potyl/perl-App-s5pdf
 no_index:
     directory:
         - t
@@ -28,6 +32,3 @@ generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
-bugtracker:         https://github.com/potyl/perl-App-s5pdf/issues
-homepage:           https://github.com/potyl/perl-App-s5pdf
-repository:         https://github.com/potyl/perl-App-s5pdf
